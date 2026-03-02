@@ -13,7 +13,7 @@ async function searchCountry(countryName) {
 
         // Fetch country data
         const response = await fetch(
-            `https://restcountries.com/v3.1/name/${countryName}`
+            `https://restcountries.com/v3.1/name/${countryName}?fullText=true`
         );
 
         if (!response.ok) {
