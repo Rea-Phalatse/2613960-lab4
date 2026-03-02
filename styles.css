@@ -6,6 +6,7 @@
     border-radius: 50%;
     border-top: 5px solid blue;
     animation: spin 1s linear infinite; /* Required */
+    position: fixed;
 }
 
 @keyframes spin {
